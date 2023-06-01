@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: rgb(255, 194, 69);
+  height: 100px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+nav .navwrapper {
+  background-color: rgb(255, 194, 69);
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+nav .navwrapper .glovo {
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(0, 160, 130);
+}
+nav .navwrapper button {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(0, 160, 130);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+nav .navwrapper button:hover {
+  background-color: rgb(176, 234, 224);
+}
+
+.herosection {
+  background-color: rgb(255, 194, 69);
+}
+.herosection .herosectionwrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.herosection .herosectionwrapper .h1p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.herosection .herosectionwrapper .h1p h1 {
+  font-size: 60px;
+  width: 500px;
+  display: flex;
+  text-align: center;
+}
+.herosection .herosectionwrapper .h1p p {
+  font-size: 22px;
+}
+.herosection .herosectionwrapper .h1p .inputwrapper {
+  background-color: green;
+  height: 55px;
+  width: 500px;
+  display: flex;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  margin-top: 20px;
+}
+.herosection .herosectionwrapper .h1p .inputwrapper input {
+  height: 100%;
+  margin-left: 40px;
+  border: none;
+  outline: none;
+}
+.herosection .herosectionwrapper .h1p .inputwrapper .icontextwrapper {
+  background-color: white;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.herosection .herosectionwrapper .h1p .inputwrapper .icontextwrapper i {
+  font-size: 30px;
+  color: green;
+  margin: 10px;
+}
+.herosection .herosectionwrapper .h1p .inputwrapper .icontextwrapper span {
+  font-size: 18px;
+  color: green;
+}
+
+.herosection2 .herosection2div {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 40px;
+}
+.herosection2 .herosection2div .h1 {
+  font-size: 30px;
+}
+.herosection2 .imageandtext {
+  width: 70%;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.herosection2 .imageandtext .foodclass1 {
+  display: flex;
+  gap: 150px;
+  margin: 40px 0;
+}
+.herosection2 .imageandtext .foodclass2 {
+  display: flex;
+  gap: 150px;
+  margin: 40px 0;
+}
+.herosection2 .imageandtext .food1 {
+  transition: transform 0.3s ease;
+}
+.herosection2 .imageandtext .food1:hover {
+  transform: scale(1.2);
+}
+.herosection2 .imageandtext .food1 img {
+  width: 100px;
+  border-radius: 50px;
+}
+.herosection2 .imageandtext .food1 p {
+  font-size: 20px;
+  background-color: rgb(255, 194, 69);
+  font-weight: bold;
+  text-align: center;
+}
+.herosection2 .herosection2div2 {
+  margin-top: 150px;
+}
+.herosection2 .herosection2div2 .sectionwrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.herosection2 .herosection2div2 .sectionwrapper .h1anything h1 {
+  font-size: 30px;
+}
+.herosection2 .herosection2div2 .sectionwrapper .illustrationwrapper {
+  display: flex;
+  gap: 150px;
+  margin-top: 60px;
+}
+.herosection2 .herosection2div2 .sectionwrapper .illustrationwrapper .illustration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.herosection2 .herosection2div2 .sectionwrapper .illustrationwrapper .illustration .textwrappers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.herosection2 .herosection2div2 .sectionwrapper .illustrationwrapper .illustration .textwrappers h2 {
+  font-size: 22px;
+}
+.herosection2 .herosection2div2 .sectionwrapper .illustrationwrapper .illustration .textwrappers p {
+  font-size: 20px;
+  width: 300px;
+  text-align: center;
+}
+.herosection2 .herosection2div2 .buttonsection2 button {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(0, 160, 130);
+  color: white;
+  border: none;
+  outline: none;
+  margin-top: 80px;
+}
+
+.herosection3 {
+  background-color: rgb(255, 194, 69);
+  margin-top: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.herosection3 .herosection3wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.herosection3 .herosection3wrapper h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.herosection3 .herosection3wrapper .span span {
+  border: 1px solid black;
+  background-color: antiquewhite;
+  padding: 10px 30px;
+  font-size: 22px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.herosection3 .herosection3wrapper .button button {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(0, 160, 130);
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.section4 .section4wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section4 .section4wrapper .imagetextwrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section4 .section4wrapper .imagetextwrapper .textwrapper {
+  text-align: center;
+}
+.section4 .section4wrapper .imagetextwrapper .textwrapper h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.section4 .section4wrapper .imagetextwrapper .textwrapper p {
+  font-size: 22px;
+}
+.section4 .section4wrapper .phoneimage img {
+  width: 700px;
+  height: 600px;
+}
+
+.section5 .section5wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  background-color: rgb(234, 248, 245);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.section5 .section5wrapper h1 {
+  font-size: 60px;
+}
+.section5 .section5wrapper .picturewrapper {
+  display: flex;
+  gap: 150px;
+  margin-top: 60px;
+}
+.section5 .section5wrapper .picturewrapper .illustration .imagediv img {
+  width: 300px;
+}
+.section5 .section5wrapper .picturewrapper .illustration .textwrappers {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section5 .section5wrapper .picturewrapper .illustration .button5 button {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(0, 160, 130);
+  color: white;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+footer {
+  background-color: black;
+}
+footer .uldivwrappers {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  align-items: 400px;
+}
+footer .uldivwrappers .h3ulli .image img {
+  margin-bottom: 10px;
+}
+footer .uldivwrappers .h3ulli h3 {
+  color: white;
+  font-weight: bolder;
+}
+footer .uldivwrappers .h3ulli ul li {
+  color: white;
+  list-style-type: none;
+  margin: 30px 0;
+  font-weight: lighter;
+}
+
+@media (max-width: 1000px) {
+  body nav .navwrapper .glovo {
+    display: flex;
+    align-items: center;
+  }
+  body .herosection {
+    padding-bottom: 40px;
+  }
+  body .herosection .herosectionwrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20PX;
+  }
+  body .herosection2 {
+    display: block;
+  }
+  body .herosection2 .herosection2div .imageandtext .foodclass1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20PX;
+  }
+  body .herosection2 .herosection2div .imageandtext .foodclass2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20PX;
+  }
+  body .herosection2div2 .sectionwrapper .illustrationwrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20PX;
+  }
+  .section4 .section4wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20PX;
+  }
+  .section5 .section5wrapper .picturewrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20PX;
+    align-items: center;
+  }
+  .herosection3 .herosection3wrapper .span {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20PX;
+    align-items: center;
+  }
+}
